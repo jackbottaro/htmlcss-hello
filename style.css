@@ -1,14 +1,14 @@
-h1 {
-    text-align: center;
+.title {
+    font-style: bold;
     font-weight: 900;
-    color: #5fdf8d;
+    color: #4d1c96;
     font-size: 60px;
-    margin-top: 30px;
+    
 }
 
 .subtitle {
-    text-align: center;
     font-weight: 400;
+    text-align: center;
 }
 
 .gif {
@@ -18,12 +18,49 @@ h1 {
     height: auto;
 }
 
-.foot {
+.center {
     text-align: center;
 }
 
 #heart {
-    color: #5fdf8d;
+    color: #4d1c96;
+    
+}
+.shadow {
+    text-shadow: 10px 10px 30px #000000;
 }
 
+
 *{font-family: 'Roboto', sans-serif;}
+
+.container {
+    display:block;
+    margin: 0 auto;
+    width: 400px;
+}
+
+.loading_bar{
+    position: relative;
+    background-color: #4d1c96;
+    width: 0px;
+    height: 15px;
+    border-radius: 15px;
+    animation: progres 4s infinite linear;    
+}
+@keyframes progres{
+    0%{
+      width: 0%;
+    }
+    25%{
+        width: 50%;
+    }
+    50%{
+        width: 75%;
+    }
+    75%{
+        width: 85%;
+    }
+    100%{
+        width: 100%;
+    }
+};
