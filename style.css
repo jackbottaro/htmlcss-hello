@@ -21,3 +21,11 @@ h1 {
 
 }
 
+.foot {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#heart {
+    color: #5fdf8d;
+}
