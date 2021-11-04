@@ -1,0 +1,16 @@
+h1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: #f4511e;
+    font-size: 60px;
+    margin-top: 30px;
+}
+
+.gif {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
