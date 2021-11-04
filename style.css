@@ -26,9 +26,7 @@
     color: #4d1c96;
     
 }
-.shadow {
-    text-shadow: 10px 10px 30px #000000;
-}
+
 
 
 *{font-family: 'Roboto', sans-serif;}
@@ -36,11 +34,11 @@
 .container {
     display:block;
     margin: 0 auto;
-    width: 400px;
+    width: 500px;
 }
 
 .loading_bar{
-    position: relative;
+    
     background-color: #4d1c96;
     width: 0px;
     height: 15px;
@@ -52,10 +50,10 @@
       width: 0%;
     }
     25%{
-        width: 50%;
+        width: 30%;
     }
     50%{
-        width: 75%;
+        width: 65%;
     }
     75%{
         width: 85%;
